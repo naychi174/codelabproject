@@ -1,0 +1,1440 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+
+@media screen and (min-width:500px)
+{
+    
+    
+    .fa-utensils{
+        width:100px;
+        height: 100px;
+    }
+    body{
+        margin:0;
+        padding: 0;
+        box-sizing: border-box;
+        color: black;
+    }
+    
+        .header{
+            position: sticky;
+            top: 0;
+            background-color: white;
+        }
+        .nav{
+            display: block;
+            background-color:white;
+        }
+    .leftnav{
+        width:100%;
+        padding: 30px 0px;
+        font-family: 'Dancing Script', cursive;
+        color:#E74C3C;
+    }
+    .rightnav{
+        padding: 30px 0px;
+        width:100%;
+        display: flex;
+        text-transform: uppercase;
+        justify-content: space-between;
+    }
+    .rightnav a{
+        color: black;
+        text-decoration: none;
+    }
+    .rightnav .active{
+        border-bottom: 2px solid black;
+    }
+    .rightnav .hover:hover a{
+        color: black;
+        border-bottom: 2px solid black;
+    }
+    
+    .title{
+        font-size: 2.5em;
+        padding:30px 0;
+    }
+    
+    .text{
+        display: block;
+        justify-content: space-between;
+
+    }
+    .leftpara{
+        width: 100%;
+    }
+    .events{
+        padding: 30px 0px;
+        width:100%;
+    }
+    .services{
+        width:100%;
+    }
+    .imagemain{
+        width: 100%;
+        padding:50px 0px;
+        display: block;
+        
+    }
+    .image{
+        width:100%;
+        transition: 0.5s;
+    }
+    .image img{width:100%;
+    padding-bottom: 30px;}
+    .image img:hover{
+        transform: translateY(  10px);
+        transition: 0.2s;
+    }
+    
+    .somepara{
+        padding:50px 0px;
+        text-align: center;
+        font-size: 2em;
+        background-color: #E74C3C ;
+    }
+    
+    /* .footer{
+        padding: 50px 0px;
+        background-color:white;
+        display: flex;
+        justify-content: space-between;
+    }
+    .leftfooter{
+        width:50%;
+        text-align: left;
+    }
+    .righfooter{
+        width: 50%;
+        text-align:left ;
+    } */
+    
+    .menuhome{
+        background-color: #F1948A ;
+        
+    }
+    .menu{
+        margin: 0 1%;
+        width: 98%;
+        display: flex;
+        align-items: center;
+        padding-bottom: 50px;
+        justify-content: space-between;
+    }
+    .menuimg{
+        justify-content: space-between;
+        width:100%;
+    }
+    .menutitle{
+        text-align: left;
+        width: 100%;
+        padding: 50px 0px;
+        
+    }
+    .menutitle h4{
+        color: #E74C3C;
+        font-size: 2em;
+    }
+    .menutitle p{
+        width: 100%;
+        font-size: 1.5em;
+        font-weight: 900;
+    }
+     /* this is css for chief */
+     .chieftitle{
+        width: 30%;
+        text-align: center;
+        padding: 50px 0px;
+    }
+    .chieftitle h5{
+        color: #E74C3C;
+    }
+    .chieftitle p{
+        font-size: 3em;
+        font-weight: 700;
+    }
+    .chief{
+        display: block;
+        justify-content: space-between;
+        width: 100%;
+    }
+    
+    .chief img{
+        padding-bottom: 10px;
+        margin-bottom: 10px;
+    }
+    .chief img:hover{
+        background-color:#E74C3C;
+        z-index: 1;
+        opacity: 1;
+    }
+    .chief h5,p{
+        text-align: center;
+    }
+    .overlay{
+        background-color: #E74C3C;
+        z-index: 3;
+        opacity:0.9;
+    }
+    .overlay:hover{
+        opacity: 1;
+    }
+
+    .staff{
+        display: block;
+    }
+    .staff .staffimg{
+        width: 100%;
+    }
+    .staff .staffimg img{
+        width: 100%;
+    }
+    .reservation{
+    width: 100%;
+    display: flex;
+    height: 800px;
+    justify-content: space-between;
+    color: white;
+    padding: 50px 0px;
+  }
+    .reservation .contact{
+        width: 48%;
+        text-align: left;
+        margin: 0 auto;
+        
+    }
+    .reservation .contact p{
+        font-size: 2em;
+        text-align: left;
+    }
+    .reservation h1{
+        padding-bottom: 50px;
+    }
+    .reservation .tablereservation{
+        width: 48%;
+        text-align: center;
+        align-items: center;
+        margin: 0 auto;
+        justify-content: space-between;
+    }
+    .tablereservation input{
+        padding:10px 20px;
+        margin: 30px 0px;
+        margin-left: 20px;
+        font-size: 1.2em;
+    }
+    .message input{
+        text-align: left;
+        padding-right: 300px;
+        display: block;
+        margin-left: 90px;
+        padding-bottom: 100px;
+    }
+    .btn button{
+        width: 100%;
+        border-radius: 10px;
+        margin-left: 10px;
+        padding: 10px 170px;
+        background-color: #E74C3C;
+    }
+    .footer{
+        width: 100%;
+        background-color: #E74C3C;
+        text-align: center;
+        padding: 50px 0px;
+    }
+    .footerwidth{
+        width: 30%;
+        margin: 0 auto;
+        text-align: center;
+        justify-content: center;
+    }
+    .fontawesome{
+        width: 100%;
+        text-align: center;
+        font-size: 2.5em;
+        justify-content: center;
+
+    }
+    .fontawesome span{
+        font-size: 1.5em;
+        text-align: center;
+        margin: 0 auto;
+        background-color: #E74C3C;
+        color: #fefefe;
+    }
+    .fontawesome span:hover{
+        color: #F1948A;
+        transition: 0.2s;
+        transform: translateY(-10px);
+    }
+    
+    .reservation{
+        width: 100%;
+        display:block;
+        height: 1700px;
+        justify-content: space-between;
+        color: white;
+        padding: 50px 0px;
+      }
+        .reservation .contact{
+            width: 90%;
+            text-align: left;
+            margin: 0 auto;
+            
+        }
+        .reservation .contact p{
+            font-size: 2em;
+            text-align: left;
+        }
+        .reservation h1{
+            padding-bottom: 50px;
+        }
+        .reservation .tablereservation{
+            width: 100%;
+            text-align: center;
+            align-items: center;
+            margin: 0 auto;
+            justify-content: space-between;
+        }
+        .tablereservation input{
+            padding:10px 20px;
+            margin: 30px 0px;
+            margin-left: 20px;
+            font-size: 1.2em;
+        }
+        .message input{
+            text-align: left;
+            width: 80%;
+            display: block;
+            margin:0 auto;
+            padding-bottom: 100px;
+        }
+        .btn button{
+            width: 100%;
+            border-radius: 10px;
+            padding: 10px 20px;
+            margin: 0 auto;
+            background-color: #E74C3C;
+        }
+        .footer{
+            width: 100%;
+            background-color: #E74C3C;
+            text-align: center;
+            padding: 50px 0px;
+        }
+        .footerwidth{
+            width: 90%;
+            margin: 0 auto;
+            text-align: center;
+            justify-content: center;
+        }
+        .fontawesome{
+            width: 100%;
+            text-align: center;
+            font-size: 2.5em;
+            justify-content: center;
+    
+        }
+        .fontawesome span{
+            font-size: 1.5em;
+            text-align: center;
+            margin: 0 auto;
+            background-color: #E74C3C;
+            color: #fefefe;
+        }
+        .fontawesome span:hover{
+            color: #F1948A;
+            transition: 0.2s;
+            transform: translateY(-10px);
+        }
+}
+
+
+
+
+
+
+@media screen and (max-width:700px)
+{
+    body{
+        margin:0;
+        padding: 0;
+        box-sizing: border-box;
+        color: black;
+    }
+    .header{
+        z-index: 90;
+    }
+    .home{
+        display: block;
+        padding: 0;
+        margin: 0;
+    }
+    .leftimg{
+        width: 100%;
+        height: 500px;
+    }
+    .leftimg img{
+        width: 100%;
+        height: 500px;
+        object-fit: cover;
+        object-position: center;
+    }
+    .rightimg{
+        width: 100%;
+    }
+    .rightimg img{
+        width: 100%;
+        height: 500px;
+        object-fit: cover;
+        object-position: center;
+    }
+    .home:hover{
+        opacity: 0.5;
+    }
+    .nav{
+        display:block;
+        background-color:white;
+        position: sticky;
+        top: 0;
+    }
+    .leftnav{
+        width:100%;
+        padding: 30px 0px;
+        text-align: center;
+       
+    }
+    .rightnav{
+        padding: 30px 0px;
+        width:100%;
+        display: flex;
+        text-transform: uppercase;
+        justify-content: space-between;
+    }
+    .rightnav a{
+        color: black;
+        text-decoration: none;
+    }
+    .rightnav .active{
+        border-bottom: 2px solid black;
+    }
+    .rightnav .hover:hover a{
+        color: black;
+        border-bottom: 2px solid black;
+    }
+    
+    
+    .title{
+        font-size: 2.5em;
+        padding:30px 0;
+    }
+    
+    .text{
+        display: block;
+        justify-content: space-between;
+
+    }
+    .leftpara{
+
+        width: 100%;
+    }
+    .events{
+        padding:40px 0;
+        width:100%;
+    }
+    .services{
+        width:100%;
+    }
+    .imagemain{
+        width: 100%;
+        padding:50px 0px;
+        display: block;
+        
+    }
+    .image{
+        width:100%;
+        transition: 0.5s;
+    }
+    .image img{width:100%;
+    padding-bottom: 30px;}
+    .image img:hover{
+        transform: translateY(  10px);
+        transition: 0.2s;
+    }
+    /* .footer{
+        padding: 50px 0px;
+        background-color:white;
+        display: block;
+        justify-content: space-between;
+    }
+    .leftfooter{
+        width:100%;
+        text-align: left;
+    }
+    .righfooter{
+        width: 100%;
+        text-align:left ;
+    } */
+    .btn{
+        margin: 10px 0px;
+    }
+    
+    .menuhome{
+        background-color: #F1948A ;
+        
+    }
+    .menu{
+        margin: 0;
+        width: 100%;
+        display: block;
+        align-items: center;
+        padding-bottom: 50px;
+       
+    }
+   .menu .menuimg{
+        
+        width:100%;
+    }
+    .menu .menuimg img{
+        width: 412px;
+    }
+    .menutitle{
+        text-align: left;
+        width: 100%;
+        padding: 50px 0px;
+        
+    }
+    .menutitle h4{
+        color: #E74C3C;
+        font-size: 2em;
+    }
+    .menutitle p{
+        width: 100%;
+        font-size: 1.5em;
+        font-weight: 900;
+    }
+     /* this is css for chief */
+     .chieftitle{
+        width: 30%;
+        text-align: center;
+        padding: 50px 0px;
+    }
+    .chieftitle h5{
+        color: #E74C3C;
+    }
+    .chieftitle p{
+        font-size: 3em;
+        font-weight: 700;
+    }
+    .chief{
+        display: block;
+        justify-content: space-between;
+        width: 100%;
+    }
+    
+    .chief img{
+        width: 100%;
+        padding-bottom: 10px;
+        margin-bottom: 10px;
+    }
+    .chief img:hover{
+        background-color:#E74C3C;
+        z-index: 1;
+        opacity: 1;
+    }
+    .chief h5,p{
+        text-align: center;
+    }
+    .overlay{
+        background-color: #E74C3C;
+        z-index: 3;
+        opacity:0.9;
+    }
+    .overlay:hover{
+        opacity: 1;
+    }
+
+    .staff{
+        display:block;
+    }
+    .staff .staffimg{
+        width: 100%;
+    }
+    .staff .staffimg img{
+        width: 100%;
+    }
+    /*This css is for menu  */
+    .sometitle{
+        text-align: center;
+        width: 20%;
+        padding: 50px;
+    }
+    .sometitle h5{
+        color: #E74C3C;
+    }
+    .sometitle p{
+        font-weight: 700;
+        font-size: 3em;
+    }
+    .tabicon{
+        display: flex;
+        justify-content: center;
+        width: 40%;
+        
+    }
+    .pricemain{
+        padding: 50px 0px;
+        width: 100%;
+        display: block;
+    }
+    .price{
+            display: block;
+            width: 100%;
+           
+    }
+    .type{
+        width: 100%;
+        text-align: left;
+        
+    }
+.type p{
+    text-align: left;
+}
+    .tabitem{
+        align-items: center;
+        width: 100%;
+        padding-top: 15px;
+       
+    }
+    .tabitem img{
+        width: 100%;
+        object-fit: cover;
+        object-position: center;
+    }
+    .dollor{
+        text-align: center;
+        border-radius: 40px;
+        width: 100%;
+       
+    }
+    .dollor p{
+        text-align: center;
+        border-radius: 10px;
+        margin-top: 30px;
+        padding:20px 0px;
+        color: #fefefe;
+        font-weight: 800;
+        font-size: 1.2em;
+        background-color: #E74C3C;
+    }
+    .reservation{
+        width: 100%;
+        display:block;
+        height: 1700px;
+        justify-content: space-between;
+        color: white;
+        padding: 50px 0px;
+      }
+        .reservation .contact{
+            width: 48%;
+            text-align: left;
+            margin: 0 auto;
+            
+        }
+        .reservation .contact p{
+            font-size: 2em;
+            text-align: left;
+        }
+        .reservation h1{
+            padding-bottom: 50px;
+        }
+        .reservation .tablereservation{
+            width: 100%;
+            text-align: center;
+            align-items: center;
+            margin: 0 auto;
+            justify-content: space-between;
+        }
+        .tablereservation input{
+            padding:10px 20px;
+            margin: 30px 0px;
+            margin-left: 20px;
+            font-size: 1.2em;
+        }
+        .message input{
+            text-align: left;
+            width: 80%;
+            display: block;
+            margin:0 auto;
+            padding-bottom: 100px;
+        }
+        .btn button{
+            width: 100%;
+            border-radius: 10px;
+            padding: 10px 20px;
+            margin: 0 auto;
+            background-color: #E74C3C;
+        }
+        .footer{
+            width: 100%;
+            background-color: #E74C3C;
+            text-align: center;
+            padding: 50px 0px;
+        }
+        .footerwidth{
+            width: 90%;
+            margin: 0 auto;
+            text-align: center;
+            justify-content: center;
+        }
+        .fontawesome{
+            width: 100%;
+            text-align: center;
+            font-size: 2.5em;
+            justify-content: center;
+    
+        }
+        .fontawesome span{
+            font-size: 1.5em;
+            text-align: center;
+            margin: 0 auto;
+            background-color: #E74C3C;
+            color: #fefefe;
+        }
+        .fontawesome span:hover{
+            color: #F1948A;
+            transition: 0.2s;
+            transform: translateY(-10px);
+        }
+}
+
+
+
+
+
+
+
+@media screen and (min-width:700px)
+{
+    
+
+    body{
+        margin:0;
+        padding: 0;
+        box-sizing: border-box;
+        color: black;
+    }
+    .header{
+        position: sticky;
+        top: 0;
+        z-index: 99;
+        background-color: white;
+    }
+    .nav{
+        display: flex;
+        background-color:white;
+    }
+    .leftnav{
+        width:20%;
+        padding: 30px 0px;
+       
+    }
+    .rightnav{
+        padding: 30px 0px;
+        width:80%;
+        display: flex;
+        text-transform: uppercase;
+        justify-content: space-between;
+    }
+    .rightnav a{
+        color: black;
+        text-decoration: none;
+    }
+    .rightnav .active{
+        border-bottom: 2px solid black;
+    }
+    .rightnav .hover:hover a{
+        color: black;
+        border-bottom: 2px solid black;
+    }
+    
+    .menuhome{
+        background-color: #F1948A ;
+        
+    }
+    .menu{
+        margin: 0 1%;
+        width: 98%;
+        display: flex;
+        align-items: center;
+        padding-bottom: 50px;
+        justify-content: space-between;
+    }
+    .menuimg{
+        justify-content: space-between;
+        width:100%;
+    }
+    .menutitle{
+        text-align: left;
+        width: 100%;
+        padding: 50px 0px;
+        
+    }
+    .menutitle h4{
+        color: #E74C3C;
+        font-size: 3em;
+    }
+    .menutitle p{
+        width: 100%;
+        font-size: 2em;
+        font-weight: 900;
+    }
+
+    .home{
+        display: flex;
+        padding: 0;
+        margin: 0;
+    }
+    .leftimg{
+        width: 40%;
+        height: 500px;
+    }
+    .leftimg img{
+        width: 100%;
+        height: 700px;
+        object-fit: cover;
+        object-position: center;
+    }
+    .rightimg{
+        width: 60%;
+    }
+    .rightimg img{
+        width: 100%;
+        height: 700px;
+        object-fit: cover;
+        object-position: center;
+    }
+    .home:hover{
+        opacity: 0.5;
+    }
+
+    .title{
+        font-size: 3em;
+        padding:50px 0;
+    }
+    
+    .text{
+        display: flex;
+        justify-content: space-between;
+
+    }
+    .leftpara{
+        width: 40%;
+    }
+    .events{
+        width:20%;
+    }
+    .services{
+        width:30%;
+    }
+    .imagemain{
+        padding:50px 0px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .image{
+        width:47%;
+        transition: 0.5s;
+    }
+    .image img{width:100%;}
+    .image img:hover{
+        transform: translateY(  10px);
+        transition: 0.2s;
+    }
+    
+    .somepara{
+        padding:50px 0px;
+        text-align: center;
+        font-size: 2em;
+        background-color: #E74C3C ;
+    }
+    
+    /* .footer{
+        padding: 50px 0px;
+        background-color:white;
+        display: flex;
+        justify-content: space-between;
+    }
+    .leftfooter{
+        width:50%;
+        text-align: left;
+    }
+    .righfooter{
+        width: 50%;
+        text-align:left ;
+    } */
+
+
+     /* this is css for chief */
+     .chieftitle{
+        width: 30%;
+        text-align: center;
+        padding: 50px 0px;
+    }
+    .chieftitle h5{
+        color: #E74C3C;
+    }
+    .chieftitle p{
+        font-size: 3em;
+        font-weight: 700;
+    }
+    .chief{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+    
+    .chief img{
+        padding-bottom: 10px;
+        margin-bottom: 10px;
+    }
+    .chief img:hover{
+        background-color:#E74C3C;
+        z-index: 1;
+        opacity: 1;
+    }
+    .chief h5,p{
+        text-align: center;
+    }
+    .overlay{
+        background-color: #E74C3C;
+        z-index: 3;
+        opacity:0.9;
+    }
+    .overlay:hover{
+        opacity: 1;
+    }
+
+    .staff{
+        display: block;
+    }
+    .staff .staffimg{
+        width: 100%;
+    }
+    .staff .staffimg img{
+        width: 100%;
+    }
+
+    /*This css is for menu  */
+    .sometitle{
+        text-align: center;
+        width: 20%;
+        padding: 50px;
+    }
+    .sometitle h5{
+        color: #E74C3C;
+    }
+    .sometitle p{
+        font-weight: 700;
+        font-size: 3em;
+    }
+    .tabicon{
+        display: flex;
+        justify-content: center;
+        width: 10%;
+        
+    }
+    /*This css is for menu  */
+    .sometitle{
+        text-align: center;
+        width: 20%;
+        padding: 50px;
+    }
+    .sometitle h5{
+        color: #E74C3C;
+    }
+    .sometitle p{
+        font-weight: 700;
+        font-size: 3em;
+    }
+    .tabicon{
+        display: flex;
+        justify-content: center;
+        width: 30%;
+    }
+    .pricemain{
+        padding: 50px 0px;
+        width: 100%;
+        display: block;
+    }
+    .price{
+            display: flex;
+            width: 100%;
+           
+    }
+    .type{
+        width: 60%;
+        text-align: left;
+        
+    }
+.type p{
+    text-align: left;
+}
+    .tabitem{
+        align-items: center;
+        width: 20%;
+        padding-top: 15px;
+       
+    }
+    .dollor{
+        text-align: center;
+        border-radius: 40px;
+        width: 20%;
+       
+    }
+    .dollor p{
+        text-align: center;
+        border-radius: 10px;
+        margin-top: 30px;
+        padding:20px 0px;
+        color: #fefefe;
+        font-weight: 800;
+        font-size: 1.2em;
+        background-color: #E74C3C;
+    }
+    .reservation{
+        width: 100%;
+        display: block;
+        height: 1100px;
+        justify-content: space-between;
+        color: white;
+        padding: 50px 0px;
+        margin: 20px 0;
+      }
+        .reservation .contact{
+            width:90%;
+            text-align: left;
+            margin: 20px  auto;
+            
+        }
+        .reservation .contact p{
+            font-size: 2em;
+            text-align: left;
+        }
+        .reservation h1{
+            padding-bottom: 50px;
+        }
+        .reservation .tablereservation{
+            width: 100%;
+            text-align: center;
+            align-items: center;
+            margin: 0 auto;
+            justify-content: space-between;
+        }
+        .tablereservation input{
+            padding:10px 20px;
+            margin: 30px 0px;
+            margin-left: 20px;
+            font-size: 1.2em;
+        }
+        .message input{
+            text-align: left;
+           
+            display: block;
+            width: 80%;
+            margin: 0 auto;
+            padding-bottom: 100px;
+        }
+        
+        .btn button{
+            width: 80%;
+            border-radius: 10px;
+            margin-left: 10px;
+            padding: 10px 170px;
+            margin-top: 20px;
+            background-color: #E74C3C;
+        }
+        .footer{
+            width: 100%;
+            background-color: #E74C3C;
+            text-align: center;
+            padding: 50px 0px;
+        }
+        .footerwidth{
+            width: 80%;
+            margin: 0 auto;
+            text-align: center;
+            justify-content: center;
+        }
+        .fontawesome{
+            width: 100%;
+            text-align: center;
+            font-size: 2.5em;
+            justify-content: center;
+    
+        }
+        .fontawesome span{
+            font-size: 1.5em;
+            text-align: center;
+            margin: 0 auto;
+            background-color: #E74C3C;
+            color: #fefefe;
+        }
+        .fontawesome span:hover{
+            color: #F1948A;
+            transition: 0.2s;
+            transform: translateY(-10px);
+        }
+}
+
+
+@media screen and (min-width:1300px)
+{
+    body{
+        margin:0;
+        padding: 0;
+        box-sizing: border-box;
+        color: black;
+    }
+    .home{
+        display: flex;
+        padding: 0;
+        margin: 0;
+    }
+    .leftimg{
+        width: 40%;
+        height: 500px;
+    }
+    .leftimg img{
+        width: 100%;
+        height: 700px;
+        object-fit: cover;
+        object-position: center;
+    }
+    .rightimg{
+        width: 60%;
+    }
+    .rightimg img{
+        width: 100%;
+        height: 700px;
+        object-fit: cover;
+        object-position: center;
+    }
+    .home:hover{
+        opacity: 0.5;
+    }
+    .header{
+        position: sticky;
+        top: 0;
+        background-color: white;
+        box-shadow: 2px 2px 1px #fefefe;
+        z-index: 90;
+    }
+    .menuhome{
+        background-color: #F1948A ;
+        
+    }
+    .menu{
+        margin: 0 1%;
+        width: 98%;
+        display: flex;
+        align-items: center;
+        padding-bottom: 50px;
+        justify-content: space-between;
+    }
+    .menuimg{
+        justify-content: space-between;
+        width:18%;
+    }
+    .menutitle{
+        text-align: left;
+        width: 30%;
+        padding: 50px 0px;
+        
+    }
+    .menutitle h4{
+        color: #E74C3C;
+        font-size: 3em;
+    }
+    .menutitle p{
+        width: 30%;
+        font-size: 2em;
+        font-weight: 900;
+    }
+    .nav{
+        display: flex;
+        background-color:white;
+    }
+    .leftnav{
+        width:50%;
+        padding: 30px 0px;
+       
+    }
+    .rightnav{
+        padding: 30px 0px;
+        width:50%;
+        display: flex;
+        text-transform: uppercase;
+        justify-content: space-between;
+    }
+    .rightnav a{
+        color: black;
+        text-decoration: none;
+    }
+    .rightnav .active{
+        border-bottom: 2px solid black;
+    }
+    .rightnav .hover:hover a{
+        color: black;
+        border-bottom: 2px solid black;
+    }
+    .title{
+        font-size: 4.5em;
+        padding:50px 0;
+    }
+    
+    .text{
+        display: flex;
+        justify-content: space-between;
+
+    }
+    .leftpara{
+        width: 40%;
+    }
+    .events{
+        width:20%;
+        padding: 0;
+    }
+    .services{
+        width:30%;
+    }
+    .imagemain{
+        padding:50px 0px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .image{
+        width:47%;
+        transition: 0.5s;
+    }
+    .image img{width:100%;}
+    .image img:hover{
+        transform: translateY(  10px);
+        transition: 0.2s;
+    }
+    .somepara{
+        padding:50px 0px;
+        text-align: center;
+        font-size: 3em;
+        background-color: #E74C3C ;
+    }
+    
+    /* .footer{
+        padding: 50px 0px;
+        background-color:white;
+        display: flex;
+        justify-content: space-between;
+      
+    }
+    .leftfooter{
+        width:50%;
+        text-align: left;
+    }
+    .righfooter{
+        width: 50%;
+        text-align:left ;
+    } */
+    /* .button{
+        padding: 1px 30px;
+        background-color: #2E4053;
+        z-index: 1;
+        
+    } */
+
+    /* this is css for chief */
+    .chieftitle{
+        width: 30%;
+        text-align: center;
+        padding: 50px 0px;
+    }
+    .chieftitle h5{
+        color: #E74C3C;
+    }
+    .chieftitle p{
+        font-size: 3em;
+        font-weight: 700;
+    }
+    .chief{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+    
+    .chief img{
+        padding-bottom: 10px;
+        margin-bottom: 10px;
+    }
+    .chief img:hover{
+        background-color:#E74C3C;
+        z-index: 1;
+        opacity: 1;
+    }
+    .chief h5,p{
+        text-align: center;
+    }
+    .overlay{
+        background-color: #E74C3C;
+        z-index: 3;
+        opacity:0.9;
+    }
+    .overlay:hover{
+        opacity: 1;
+    }
+
+    .staff{
+        display: flex;
+    }
+    .staff .staffimg{
+        width: 50%;
+    }
+    .staff .staffimg img{
+        width: 100%;
+    }
+    /* this is css for chief */
+    /*This css is for menu  */
+    .sometitle{
+        text-align: center;
+        width: 20%;
+        padding: 50px;
+    }
+    .sometitle h5{
+        color: #E74C3C;
+    }
+    .sometitle p{
+        font-weight: 700;
+        font-size: 3em;
+    }
+    .tabicon{
+        display: flex;
+        justify-content: center;
+        width: 10%;
+        
+    }
+    .pricemain{
+        padding: 50px 0px;
+        width: 100%;
+        display: flex;
+    }
+    .price{
+            display: flex;
+            width: 100%;
+           
+    }
+    .type{
+        width: 60%;
+        text-align: left;
+        
+    }
+.type p{
+    text-align: left;
+}
+    .tabitem{
+        align-items: center;
+        width: 20%;
+        padding-top: 15px;
+       
+    }
+    .dollor{
+        text-align: center;
+        border-radius: 40px;
+        width: 10%;
+       
+    }
+    .dollor p{
+        text-align: center;
+        border-radius: 10px;
+        margin-top: 30px;
+        padding:20px 0px;
+        color: #fefefe;
+        font-weight: 800;
+        font-size: 1.2em;
+        background-color: #E74C3C;
+ 
+    }
+    
+  .reservation{
+    width: 100%;
+    display: flex;
+    height: 800px;
+    justify-content: space-between;
+    color: white;
+    padding: 50px 0px;
+  }
+    .reservation .contact{
+        width: 48%;
+        text-align: left;
+        margin: 0 auto;
+        
+    }
+    .reservation .contact p{
+        font-size: 2em;
+        text-align: left;
+    }
+    .reservation h1{
+        padding-bottom: 50px;
+    }
+    .reservation .tablereservation{
+        width: 48%;
+        text-align: center;
+        align-items: center;
+        margin: 0 auto;
+        justify-content: space-between;
+    }
+    .tablereservation input{
+        padding:10px 20px;
+        margin: 30px 0px;
+        margin-left: 20px;
+        font-size: 1.2em;
+    }
+    .message input{
+        width: 100%;
+        margin: 0 auto;
+        padding-bottom: 100px;
+    }
+   
+    .btn button{
+        width: 100%;
+        background-color: #E74C3C;
+    }
+    .footer{
+        width: 100%;
+        background-color: #E74C3C;
+        text-align: center;
+        padding: 50px 0px;
+    }
+    .footerwidth{
+        width: 30%;
+        margin: 0 auto;
+        text-align: center;
+        justify-content: center;
+    }
+    .fontawesome{
+        width: 100%;
+        text-align: center;
+        font-size: 2.5em;
+        justify-content: center;
+
+    }
+    .fontawesome span{
+        font-size: 1.5em;
+        text-align: center;
+        margin: 0 auto;
+        background-color: #E74C3C;
+        color: #fefefe;
+    }
+    .fontawesome span:hover{
+        color: #F1948A;
+        transition: 0.2s;
+        transform: translateY(-10px);
+    }
+}
